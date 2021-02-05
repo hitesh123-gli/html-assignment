@@ -1,0 +1,94 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.row{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+
+ .images
+ {
+ 	background-color: blue;
+  width: 80%;
+ }
+
+.card{
+	padding: 20px;
+	background-color:green;
+ margin-top:20px;
+ width: 40%;
+
+ }
+ .right-column{
+ 	padding-top:200px
+ width: 40%;
+ color: black;
+ float: right;
+ padding-left:80px;
+}
+
+.left-column{
+float: left;
+width: 40%;	
+overflow: scroll;
+}
+
+
+#list a{
+    text-decoration: none;
+    color: white;
+}
+#list img{
+    width: 180px;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+}
+#list img:hover{
+    opacity: 50%;
+}
+#list ul{
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+}
